@@ -47,11 +47,49 @@ body {
 
 
 .hero main a{
-  color: white;
-  background-color: var(--pink);
+  color: var(--pink);
+  background-color: white;
 }
 
 .hero a :hover{
   background-origin: white;
   color: var(--pink);
 }
+
+.timerCountdownContainer{
+  text-align: center;
+ 
+
+} 
+
+.timerCountdown{
+  display: flex;
+  justify-content: center;
+}
+
+.timerCountdown div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.timerCountdown span{
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--pink);
+}
+
+.timerCountdown span:last-child{
+  font-size: 16px;
+  font-weight: normal;
+  padding-top: 10px;
+}
+
+.timerCountdown span:first-child{
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
