@@ -35,23 +35,22 @@ function Countdown() {
 
   return (
       <main className="timerCountdownContainer">
-        <h2>Countdown to Our Wedding</h2>
         <div className="timerCountdown">
           <div>
             <span>{days}</span>
-            <span> Days</span>
+            <span>Hari</span>
           </div>
           <div>
             <span>{hours}</span>
-            <span> Hours</span>
+            <span>Jam</span>
           </div>
           <div>
             <span>{minutes}</span>
-            <span> Minutes</span>
+            <span>Menit</span>
           </div>
           <div>
             <span>{seconds}</span>
-            <span> Seconds</span>
+            <span>Detik</span>
           </div>
         </div>
       </main>
