@@ -75,7 +75,7 @@ function Home() {
         </div>
       </section>
 
-      {/* <section id="info" class="info">
+      <section id="info" class="info">
         <div className="container">
           <div className="row">
             <div className="col-md-8 col-10 text-center">
@@ -100,7 +100,7 @@ function Home() {
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
     </div>
   );
 }
