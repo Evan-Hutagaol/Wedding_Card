@@ -4,12 +4,12 @@ function Home() {
   return (
     <div>
       <section id="home" class="home">
-        <div class="comtainer">
+        <div class="container">
           <div class="row justify-content-center">
             <div className="col-md-8 text-center">
               <h2>Acara Pernikahan</h2>
               <h3>
-                Diselenggarakan pada 31 Agustus 2023 di Hotel Tribrata, Jakarta
+                Diselenggarakan pada 2 September 2023 di Hotel Tribrata, Jakarta
               </h3>
               <p>
                 Oleh karena itu, dengan segala hormat, kami bermaksud untuk
@@ -18,6 +18,7 @@ function Home() {
               </p>
             </div>
           </div>
+
 
           <div className="row couple">
             <div className="col-lg-6">
@@ -75,32 +76,7 @@ function Home() {
         </div>
       </section>
 
-      <section id="info" class="info">
-        <div className="container">
-          <div className="row">
-            <div className="col-md-8 col-10 text-center">
-              <h2>Informasi Acara</h2>
-              <p class="alamat">
-                Alamat: Gedung The Tribrata Darmawangsa Jakarta, <br />
-                Jl. Darmawangsa III No.2, Kec. Kby. Baru, Kota Jakarta Selatan,
-                DKI Jakarta
-              </p>
-              <a
-                href="https://goo.gl/maps/m3XTeJYJggHJ7KGv6"
-                target="_blank"
-                class="btn btn-light btn-sm"
-              >
-                Klik untuk membuka peta
-              </a>
-              <p>
-                Diharapkan untuk tidak salah alamat dan tanggal. Manakala tiba
-                di tujuan namun tidak ada tanda-tanda sedang dilangsungkan
-                pernikahan, boleh jadi Anda salah jadwal, atau salah tempat.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+      
     </div>
   );
 }
