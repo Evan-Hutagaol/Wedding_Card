@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 function Countdown() {
-  const weddingDate = new Date("2023-08-31T12:00:00"); // Set your wedding date and time here
+  const weddingDate = new Date("2023-09-02T12:13:00"); // Set your wedding date and time here
   const now = new Date();
   const timeRemaining = weddingDate - now;
 
