@@ -69,7 +69,7 @@ body {
 }
 
 
-.main a {
+.main a{
   color: white;
   background-color: var(--pink);
 }
@@ -129,24 +129,30 @@ body {
 
 
 .offcanvas-body .navbar-nav .nav-link{
-  color: rgb(82, 76, 76);
+  color: var(--bg);
 }
 
 .offcanvas-body .navbar-nav .nav-link:hover{
   color: var(--pink);
 }
 
+ .mynavbar{
+  background-color: rgba(227, 227, 227, 0.822);
+}
+
+
+
 .home{
   background-image: url(../public/assets/images/wedding.png);
   background-size: cover;
   min-height: 100vh;
-  margin-top: -6.5rem;
+  margin-top: -6.45rem;
   padding-top: 15rem;
   padding-bottom: 5rem;
 }
 
 
-.home h2{
+.home h2, .info h2{
   color: var(--pink);
   font-family: 'Sacramento';
   font-size: 5rem;
@@ -204,13 +210,50 @@ body {
 
 }
 
-.info h2{
-  color: chocolate;
-  font-family: "Sacramento";
-  font-size: 5rem;
-  font-weight: bold;
-
+.info a{
+  color: var(--pink);
+  background-color: white;
+  border: 0;
 }
+
+.info a:hover{
+  color: white;
+  background-color: var(--pink);
+}
+
+.info .alamat{
+  font-size: 1.1rem;
+}
+
+.info .description{
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+
+.info .card{
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  border: 1px solid #000000;
+}
+
+.info .card-header{
+border-bottom: 1px solid #999;
+text-transform: uppercase;
+background-color: var(--pink);
+color: white;
+font-weight: 700;
+letter-spacing: 0.1rem;
+}
+
+.info .card-body{
+  font-size: 1rem;
+}
+
+.info .card-footer{
+  border-top: 1px solid #999;
+  font-size: 0.95rem;
+}
+
 
 
 
