@@ -1,16 +1,17 @@
 import React from "react";
-import "./Navbar.css";
+// import "./Navbar.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function Navbar() {
   return (
-    <nav class="navbar sticky-top">
+    // <nav class="navbar navbar-expand-md bg-body-tertiary sticky-top "></nav>
+    <nav class="navbar navbar-expand-md sticky-top mynavbar">
       <div class="container">
         <a class="navbar-brand" href="#">
-          Offcanvas navbar
+          ELsa
         </a>
         <button
-          class="navbar-toggler"
+          class="navbar-toggler border-0"
           type="button"
           data-bs-toggle="offcanvas"
           data-bs-target="#offcanvasNavbar"
@@ -19,14 +20,14 @@ function Navbar() {
           <span class="navbar-toggler-icon"></span>
         </button>
         <div
-          class="offcanvas offcanvas-end"
+          class="offcanvas offcanvas-end" 
           tabindex="-1"
           id="offcanvasNavbar"
           aria-labelledby="offcanvasNavbarLabel"
         >
           <div class="offcanvas-header">
             <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
-              Offcanvas
+              ELsa
             </h5>
             <button
               type="button"
@@ -36,10 +37,26 @@ function Navbar() {
             ></button>
           </div>
           <div class="offcanvas-body">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        <a class="nav-link" href="#">Features</a>
-        <a class="nav-link" href="#">Pricing</a>
-        <a class="nav-link disabled">Disabled</a>
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link"  href="#">
+                Home
+              </a>
+              <a class="nav-link" href="#">
+                Info
+              </a>
+              <a class="nav-link" href="#">
+                Story
+              </a>
+              <a class="nav-link" href="#">
+                Gallery
+              </a>
+              <a class="nav-link" href="#">
+                RSVP
+              </a>
+              <a class="nav-link" href="#">
+                Gifts
+              </a>
+            </div>
           </div>
         </div>
       </div>
