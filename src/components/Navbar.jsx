@@ -1,10 +1,11 @@
 import React from "react";
-// import "./Navbar.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import hero from "../pages/Hero";
 
 function Navbar() {
+  
+
   return (
-    // <nav class="navbar navbar-expand-md bg-body-tertiary sticky-top "></nav>
     <nav class="navbar navbar-expand-md sticky-top mynavbar">
       <div class="container">
         <a class="navbar-brand" href="#">
